@@ -1,0 +1,47 @@
+body {
+  background-image: url(/img/cloudy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_block {
+  height: 75%;
+  width: 75%;
+  background-image: linear-gradient(
+    200deg,
+    rgba(207, 183, 183, 0.658),
+    rgba(124, 111, 172, 0.281)
+  );
+  border-radius: 20%;
+  box-shadow: 15px 15px 50px, -15px -15px 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  color: whitesmoke;
+}
+
+.magic_8ball {
+  display: flex;
+}
+
+.magic_8ball,
+img {
+  height: 50vh;
+  width: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
