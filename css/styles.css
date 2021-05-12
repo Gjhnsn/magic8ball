@@ -35,10 +35,6 @@ body {
   color: rgb(48, 45, 45);
 }
 
-.magic_8ball {
-  display: flex;
-}
-
 .magic_8ball,
 img {
   height: 50vh;

@@ -37,4 +37,9 @@ function shake() {
 
 const delay = 1000;
 
-setTimeout(ask, delay);
+setTimeout(delay, ask);
+
+function display() {
+  let userQ = document.getElementById("input").value;
+  document.getElementById("question").innerHTML = userQ;
+}

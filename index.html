@@ -21,9 +21,10 @@
         </div>
         <div class="ask_field">
           <h2 id="question">Ask Me Anything!</h2>
-          <input class="input" type="text" placeholder="ask here" />
+          <input class="input" id="input" type="text" placeholder="ask here" />
+          <!-- onclick functions -->
           <button
-            onclick="setTimeout(ask, delay); shake()"
+            onclick="setTimeout(ask, delay); shake(); display()"
             class="btn btn-light ask_button"
           >
             Ask!
@@ -46,5 +47,3 @@
     <script src="js/main.js"></script>
   </body>
 </html>
-
-+
