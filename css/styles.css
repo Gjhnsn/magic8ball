@@ -142,46 +142,48 @@ h2 {
     height: 81%;
 
   }
+}
 
-  @media only screen and (max-width: 768px) {
-    .title {
-      font-size: 2rem;
-      margin-top: 15px;
-      letter-spacing: 3px;
-    }
-
-    .magic_8ball,
-    img {
-      margin-top: 15px;
-    }
-
-    .ask_field {
-      margin-top: 25px;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-    }
-
-    .magic_8ball,
-    img {
-      height: 45vh;
-    }
-
-    .ask_button {
-      font-size: .8rem;
-    }
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-top: 15px;
+    letter-spacing: 3px;
   }
 
-  @media only screen and (max-width: 576px) {
+  .magic_8ball,
+  img {
+    margin-top: 15px;
+  }
 
-    .magic_8ball,
-    img {
-      height: 38vh;
-    }
+  .ask_field {
+    margin-top: 25px;
+  }
 
-    .content_block {
-      height: 70%;
-      width: 90%;
+  h2 {
+    font-size: 1.2rem;
+  }
 
-    }
+  .magic_8ball,
+  img {
+    height: 45vh;
+  }
+
+  .ask_button {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .magic_8ball,
+  img {
+    height: 38vh;
+  }
+
+  .content_block {
+    height: 70%;
+    width: 90%;
+
+  }
+}
